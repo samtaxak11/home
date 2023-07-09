@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css"> 
+    <title>Study Monk</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                 <div class="header__logo">
+                    <img src="img/logo.png" alt="Logo">
+                 </div>
+                 <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a data-goto=".main" href="#" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a data-goto=".about" href="#" class="menu__link">About Us</a>
+                        </li>
+                        <li class="menu__item">
+                            <a data-goto=".contacts" href="#" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                 </nav>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__main main">
+                <div class="main__container">
+                    <div class="main__content">
+                        <h1 class="main__title">
+                            DISCOVER MOST SUITABLE <span>job</span>
+                        </h1>
+                        <div class="main__buttons">
+                            <a href="#" class="main__demo-button button">Book a Demo</a>
+                            <a href="#" class="main__plan-button button button_dark">View Plans</a>
+                        </div>
+                    </div>
+                    <div class="main__image">
+                        <img src="img/main.svg" alt="main">
+                    </div>
+                </div>
+            </section>
+            <section class="page__about about">
+                <div class="about__container">
+                    <div class="about__content">
+                        <h2 class="about__title title">About <span>us</span></h2>
+                        <div class="about__text">
+                            <p>
+                                Embrace the future of hiring with our digital recruitment solution app. It's like having a personal recruiting assistant in your pocket, empowering employers to find the perfect candidate with ease and efficiency. From crafting compelling job listings to conducting seamless interviews, our app is the ultimate catalyst for success in the evolving job market.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__image">
+                        <img src="img/about.svg" alt="about">
+                    </div>
+                </div>
+            </section>
+            <section class="page__works works">
+                <div class="works__container">
+                    <h2 class="works__title title">
+                        Popular <span>choices</span>
+                    </h2>
+                    <div class="works__items items-works">
+                        <nav class="items-works__navigation">
+                            <button data-work-type="" class="items-works__type button button_dark active">All</button>
+                            <button data-work-type="ui" class="items-works__type button button_dark">UI</button>
+                            <button data-work-type="ux" class="items-works__type button button_dark">UX</button>
+                            <button data-work-type="wd" class="items-works__type button button_dark">Web Design</button>
+                        </nav>
+                        <div class="items-works__body">
+                            <a data-work-type="ui" href="#" class="items-works__item">
+                                <div class="items-works__image">
+                                    <img src="img/01.png" alt="image">
+                                </div>
+                            </a>
+                            <a data-work-type="ux" href="#" class="items-works__item">
+                                <div class="items-works__image">
+                                    <img src="img/02.png" alt="image">
+                                </div>
+                            </a>
+                            <a data-work-type="wd" href="#" class="items-works__item">
+                                <div class="items-works__image">
+                                    <img src="img/03.png" alt="image">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__contacts contacts">
+                <div class="contacts__container">
+                    <div class="contacts__content">
+                        <h2 class="contacts__title title">
+                            Start from <br><span>TODAY</span>
+                        </h2>
+                        <div class="contacts__image">
+                            <img src="img/contact.svg">
+                        </div>
+                    </div>
+                    <form action="#" class="contacts__form form">
+                        <div class="form__item">
+                            <label for="i-1" class="form__label">Your name</label>
+                            <input required id="i-1" type="text" class="form__input" placeholder="Name" name="name">
+                        </div>
+                        <div class="form__item">
+                            <label for="i-2" class="form__label">Your email</label>
+                            <input required id="i-2" type="email" class="form__input" placeholder="EMail" name="email">
+                        </div>
+                        <div class="form__item">
+                            <label for="i-3" class="form__label">Your resume</label>
+                            <input required id="i-3" type="text" class="form__input" placeholder="Resume" name="resume">
+                        </div>
+                        <div class="form__item">
+                            <button type="submit" class="form__button button">
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <nav class="footer__menu menu-footer">
+                    <ul class="menu-footer__list">
+                        <li class="menu-footer__item">
+                            <a data-goto=".main" href="#" class="menu-footer__link menu-footer__link_home">Home</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a data-goto=".about" href="#" class="menu-footer__link menu-footer__link_about">About Us</a>
+                        </li>
+                        <li class="menu-footer__item">
+                            <a data-goto=".contacts" href="#" class="menu-footer__link menu-footer__link_contacts">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__social social">
+                    <a href="" class="social__link">
+                        <img src="img/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="" class="social__link">
+                        <img src="img/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="" class="social__link">
+                        <img src="img/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="" class="social__link">
+                        <img src="img/youtube.svg" alt="yt">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
